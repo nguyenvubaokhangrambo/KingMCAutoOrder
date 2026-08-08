@@ -26,3 +26,4 @@ jobs:
         with:
           name: KingMCAutoOrder-JAR
           path: build/libs/*.jar
+          
