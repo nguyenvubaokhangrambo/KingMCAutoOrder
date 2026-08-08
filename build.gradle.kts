@@ -11,7 +11,6 @@ repositories {
     mavenCentral()
     maven("https://maven.meteordev.org/releases")
     maven("https://maven.meteordev.org/snapshots")
-    maven("https://meteordev.github.io/baritone")
 }
 
 dependencies {
@@ -19,9 +18,8 @@ dependencies {
     mappings("net.fabricmc:yarn:${property("yarn_mappings")}:v2")
     modImplementation("net.fabricmc:fabric-loader:${property("loader_version")}")
     
-    // Meteor Client & Baritone
+    // Meteor Client (Đã tích hợp sẵn Baritone API bên trong)
     modImplementation("meteordevelopment:meteor-client:${property("meteor_version")}")
-    modImplementation("baritone:baritone-unoptimized-fabric:${property("minecraft_version")}-SNAPSHOT")
 }
 
 tasks.processResources {
