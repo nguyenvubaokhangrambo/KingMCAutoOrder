@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kingmcautoorder",
+  "version": "${version}",
+  "name": "KingMC Auto Order",
+  "description": "Meteor Addon for Auto Mining and Ordering Sand",
+  "authors": ["Gemini"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/kingmcautoorder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.kingmc.autoorder.KingMCAutoOrderAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.5",
+    "meteor-client": "*"
+  }
+}
